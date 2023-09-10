@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            Timesheet Management
+        </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="Assets/css/site.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container mt-5">
+            <section>
+                <h5 class="text-primary">Schedule</h5>
+                <hr class="mb-4">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-2 form-group">
+                            <label>Estimated Hours</label>
+                            <input type="number" class="form-control" value="5600"/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label>Start Date</label>
+                            <input type="date" class="form-control" name="startDate" value="2023-09-01"/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label>End Date</label>
+                            <input type="date" class="form-control" name="endDate" value="2023-10-31"/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <button class="btn btn-primary btn-sm" onclick="initGrid()">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5 class="text-primary">Project Resource Requirements</h5>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <button class="btn btn-primary btn-sm">Add Resource</button>
+                    </div>
+                </div>
+                
+                
+                <hr class="mb-4">
+                <div>
+                    <div class="row">
+                        <table class="table tblTimesheet">
+                            <thead>
+                                <tr>
+                                    <!-- <th width="30">#</th>
+                                    <th width="150">RESOURCE</th>
+                                    <th>BILLABLE</th>
+                                    <th>OTHER SKILLS</th>
+                                    <th>COMMENTS</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr>
+                                    <td>1</td>
+                                    <td>Ganesh Ronge</td>
+                                    <td>Yes</td>
+                                    <td>.Net, C#, HTML etc</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Ganesh Ronge</td>
+                                    <td>Yes</td>
+                                    <td>.Net, C#, HTML etc</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Ganesh Ronge</td>
+                                    <td>Yes</td>
+                                    <td>.Net, C#, HTML etc</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Ganesh Ronge</td>
+                                    <td>Yes</td>
+                                    <td>.Net, C#, HTML etc</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Ganesh Ronge</td>
+                                    <td>Yes</td>
+                                    <td>.Net, C#, HTML etc</td>
+                                    <td>25</td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <script src="Assets/js/site.js"></script>
+    </body>
+</html>

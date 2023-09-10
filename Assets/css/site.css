@@ -1,0 +1,83 @@
+/* Utility Classes */
+.text-primary{
+    color: orange !important;
+}
+
+hr{
+    color: orange !important;
+}
+
+.form-group > label{
+    background-color: orange;
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+}
+
+.form-group > .form-control{
+    background-color: #ffe7bb;
+    border-radius: 0px;
+    color: brown;
+    border-color: orange;
+    padding: 10px 5px 10px 5px;
+}
+
+.form-group > label{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.form-group{
+    position: relative;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-color: black;
+    color: #fff;
+    border-color: black;
+}
+
+.btn-primary:hover{
+    background-color: grey;
+    border-color: black;
+}
+
+.tblTimesheet > thead th{
+    background-color: #ededed;
+    color: #000;
+    border-bottom: solid thin #000;
+}
+
+.tblTimesheet > thead > tr > th:first-child,.tblTimesheet > thead > tr > th:nth-child(2){
+    background-color: brown;
+    color: #fff;
+}
+
+.tblTimesheet > thead > tr > th:first-child{
+   width: 30px;
+}
+
+.tblTimesheet > thead > tr > th:nth-child(2)
+{
+    width: 170px;
+}
+
+.tblTimesheet > tbody td:nth-child(1),.tblTimesheet > tbody td:nth-child(2){
+    background-color: #ededed;
+    color: #000;
+    border: none;
+}
+
+.tblTimesheet{
+    border:solid thin gray;
+}
+
+.weeklyChart{
+    height: 25px !important;
+    margin: 0px;
+    opacity: 1;
+}
